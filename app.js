@@ -1,8 +1,10 @@
+//#2 para desplegarlo en un servidor
 require('dotenv').config();
 const express = require('express')
 const hbs = require('hbs');
 
 const app = express();
+// #1 es para desplegarlo en un servidor
 const port = process.env.PORT;
 /*
 //hbs para renderisar
